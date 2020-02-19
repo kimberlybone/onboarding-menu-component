@@ -4,6 +4,6 @@ import { Jumbo }						from '@narrow/typography';
 
 storiesOf('Welcome', module)
 .add('Welcome', () => {
-  return (<Jumbo>Menu Row</Jumbo>
+  return (<Jumbo>Welcome</Jumbo>
   );
 });

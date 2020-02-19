@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders correctly 1`] = `
+.c0 {
+  font-size: px;
+  line-height: px;
+  margin: 0;
+}
+
+<span
+  className="c0"
+  title="Text"
+/>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jumbo renders correctly 1`] = `
+.c0 {
+  color: #282828;
+  font-size: 120px;
+  line-height: 120px;
+  margin: 0;
+}
+
+.c1 {
+  font-weight: bold;
+  font-family: GothamNarrowUltra;
+  color: #282828;
+  -webkit-letter-spacing: 0.02em;
+  -moz-letter-spacing: 0.02em;
+  -ms-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+<h1
+  className="c0 c1"
+  color="#282828"
+  fontSize={120}
+  title="Jumbo"
+/>
+`;

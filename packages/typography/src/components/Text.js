@@ -1,0 +1,33 @@
+import React				from 'react';
+import styled	 			from 'styled-components';
+import PropTypes 			from 'prop-types';
+import { Fonts } 			from '../fonts';
+import { findColor }        from '@narrow/theme';
+
+const propTypes = {
+	primitive: PropTypes.string,
+	children: PropTypes.node
+};
+
+const defaultProps = {
+	primitive:'span'
+};
+
+const TextWrapper = styled.span`
+	color: ${({color}) => findColor(color)};
+	font-size: ${({fontSize}) => fontSize}px;
+	line-height: ${({lineHeight}) => lineHeight}px;
+	margin: 0;
+`;
+
+const Text = ({ primitive, children, ...props }) => (
+	<TextWrapper as={primitive}
+	{...props}>
+		{children}
+	</TextWrapper>
+);
+
+Text.propTypes = propTypes;
+Text.defaultProps = defaultProps;
+
+export default Text;

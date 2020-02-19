@@ -5,7 +5,7 @@ import PropTypes 		from 'prop-types';
 // const propTypes = {
 //
 // }
-const HeaderTitle = styled.div`
+const MainTitle = styled.div`
   height: 74p;
   width: 340px;
   color: #282828;
@@ -14,3 +14,7 @@ const HeaderTitle = styled.div`
   font-weight: 900;
   line-height: 89px;
 `
+const MainTitleStyle = (props) => {
+  return(<MainTitleComponent>Menu Row</MainTitleComponent>)
+}
+export {MainTitle}
